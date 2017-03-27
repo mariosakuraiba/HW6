@@ -91,6 +91,11 @@ public class ReadQuery {
                 table += "<td>";
                 table += course.getCourseNo();
                 table += "</td>";
+                
+                table += "<td>";
+                table +="<a href = delete?courseID=" + course.getCourseID() +"> Delete </a>";
+                table += "</td>";
+                
                 table += "</tr>";
              
             }
