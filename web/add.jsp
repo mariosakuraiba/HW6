@@ -5,22 +5,31 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add A New Course</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
         <h1>Add A New Course</h1>
-        
+        <table>
         <form name="addForm" action="addCourse" method="get">
             
-            <label>Course Name:</label>
-            <input type="text" name="name" value=""/>
-            <br>
-            <label>Course Session:</label>
-            <input type="text" name="session" value=""/>
-            <br>
-            <label>Course Number:</label>
-            <input type="text" name="number" value=""/>
-            <br>
-            <input type="submit" name="submit" value="Submit" />   
-        </form>
+            
+            <tr>
+            <td><label>Course Name:</label></td>
+            <td><input type="text" name="name" size="30" value=""/></td>
+            </tr><br>
+            <tr>
+            <td><label>Course Session:</label></td>
+            <td><input type="text" name="session" size="30" value=""/></td>
+            </tr><br>
+            <tr>
+            <td><label>Course Number:</label></td>
+            <td><input type="text" name="number" size="30" value=""/></td>
+            </tr><br>
+            
+                <td><input type="submit" name="submit" value="Submit" /></td>
+              
+            
+        </form>        
+        </table>
     </body>
 </html>

@@ -1,0 +1,28 @@
+head{
+    text-align: center;
+    
+}
+
+body {
+background-color: #D2B48C;
+color: white;
+text-align:center;
+}
+
+
+table,td{
+    align-content: center;
+    background-color: #F08080;
+    border: 1px solid;
+    padding: 5px;
+    
+}
+th{
+    height:20px;
+    background-color: #FFFF99;
+    color: #696969;
+}
+
+label{
+    text-align: right;    
+}
