@@ -26,3 +26,4 @@ th{
 label{
     text-align: right;    
 }
+input[readonly] {background-color: grey;}
