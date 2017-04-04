@@ -9,5 +9,7 @@
     <body>
         <h1>My Enrolled Courses Database</h1>
         <a href="read">View All Courses</a>
+        <br><br>
+        <a href ="search.jsp">Search Courses</a>
     </body>
 </html>

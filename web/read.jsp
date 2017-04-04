@@ -14,6 +14,7 @@
         <%= table %>
         <br><br>
         <a href="add">Add A New Course</a><br>
+        <a href ="search.jsp">Search Courses</a><br>
         <a href="index.jsp">Return to the previous page</a>
     </body>
 </html>
