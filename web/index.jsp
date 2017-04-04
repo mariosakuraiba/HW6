@@ -7,9 +7,20 @@
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
-        <h1>My Enrolled Courses Database</h1>
-        <a href="read">View All Courses</a>
-        <br><br>
-        <a href ="search.jsp">Search Courses</a>
+        
+        <div class = "wrap">
+		<div class = "header">
+                    <h1>My Enrolled Courses Database</h1>
+		</div>
+		<div class = "main">
+                    <a href="read">View All Courses</a>
+                    <br><br>
+                    <a href ="search.jsp">Search Courses</a>
+		</div>
+		<div class = "footer">
+		&copy: Copyright 2015 SoftwareDesignAndDevelopment.com | All rights reserved | <a href = "sitemap.jsp">Site Map</a>
+		</div>
+	</div>
+        
     </body>
 </html>

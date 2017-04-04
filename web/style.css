@@ -27,3 +27,11 @@ label{
     text-align: right;    
 }
 input[readonly] {background-color: grey;}
+
+.wrap{text-align:center;width:90%; margin:0 auto; border:8px solid white;margin-top:25px;}
+
+.header{background-color:coral;color:white;text-align:left; padding:25px;}
+
+.main{background-color:pink; text-align:left; padding:25px;}
+
+.footer{background-color:grey; text-align:left;padding:25px;}
