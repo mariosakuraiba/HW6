@@ -1,6 +1,5 @@
 head{
-    text-align: center;
-    
+    text-align: center;    
 }
 
 body {
@@ -9,8 +8,11 @@ color: white;
 text-align:center;
 }
 
+h1,h3{text-align: center;}
+
 
 table,td{
+    
     align-content: center;
     background-color: #F08080;
     border: 1px solid;
@@ -30,8 +32,13 @@ input[readonly] {background-color: grey;}
 
 .wrap{text-align:center;width:90%; margin:0 auto; border:8px solid white;margin-top:25px;}
 
-.header{background-color:coral;color:white;text-align:left; padding:25px;}
+.header{background-color:pink;color:white;text-align:left; padding:10px;}
+
+.navlist{list-style: none;padding: 0;margin: 0;}
+.navlist li{display: inline;padding: 0;margin: 0;}
+.navlist li:before{content: "| ";}
+.navlist li:first-child:before{content: "";}
 
 .main{background-color:pink; text-align:left; padding:25px;}
 
-.footer{background-color:grey; text-align:left;padding:25px;}
+.footer{background-color:tan; text-align:left;padding:25px;}

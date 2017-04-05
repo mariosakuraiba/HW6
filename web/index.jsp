@@ -9,17 +9,20 @@
     <body>
         
         <div class = "wrap">
-		<div class = "header">
-                    <h1>My Enrolled Courses Database</h1>
-		</div>
-		<div class = "main">
-                    <a href="read">View All Courses</a>
-                    <br><br>
-                    <a href ="search.jsp">Search Courses</a>
-		</div>
-		<div class = "footer">
-		&copy: Copyright 2015 SoftwareDesignAndDevelopment.com | All rights reserved | <a href = "sitemap.jsp">Site Map</a>
-		</div>
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/main.jsp" %>
+            <div class="main">
+            <h1>My Enrolled Courses Database</h1>
+            <a href="read">View All Courses</a>
+            <br><br>
+            <a href="search.jsp">Search Courses</a>
+            </div>
+		
+                    
+		
+		
+            <%@ include file="includes/footer.jsp" %>    
 	</div>
         
     </body>

@@ -8,8 +8,8 @@
         <title>Search page</title>
     </head>
     <body>
-        <h1>Search Courses</h1>
-        
+        <h1>Search Courses</h1><br><br>
+        <h3>Search By Key Word</h3>
         <form name="searchForm" action="search" method="get">
             <input type ="text" name="searchVal" value=""/>
             <br>

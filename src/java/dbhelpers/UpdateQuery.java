@@ -17,7 +17,7 @@ public class UpdateQuery {
     private Connection conn;
     public UpdateQuery(){
     
-    Properties props = new Properties();
+        Properties props = new Properties();
         InputStream instr = getClass().getResourceAsStream("dbConn.properties");
         try {
             props.load(instr);
@@ -48,25 +48,24 @@ public class UpdateQuery {
     
     public void doUpdate(Courses course) {
         
-        PreparedStatement ps = null;
+       
         try {
-            String query = "UPDATE courses SET courseName = ?, courseSession = ?, courseNo = ?";
-            ps = conn.prepareStatement(query);
+            String query = "UPDATE courses SET courseName = ?, courseSession = ?, courseNo = ? WHERE courseID=?";
+            PreparedStatement ps = conn.prepareStatement(query);
+            
             ps.setString(1, course.getCourseName());
             ps.setString(2,course.getCourseSession());
             ps.setString(3,course.getCourseNo());
+            ps.setInt(4,course.getCourseID());
+            
             ps.executeUpdate();
         } catch (SQLException ex) {
             Logger.getLogger(UpdateQuery.class.getName()).log(Level.SEVERE, null, ex);
-        } finally {
-            try {
-                ps.close();
-            } catch (SQLException ex) {
-                Logger.getLogger(UpdateQuery.class.getName()).log(Level.SEVERE, null, ex);
-            }
+        }
+        
         }
                 
     
     }
     
-}
+
